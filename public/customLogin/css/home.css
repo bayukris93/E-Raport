@@ -1,0 +1,111 @@
+/* div{
+    
+        display: inline; 
+        border: 1px solid blue;  
+        background-color: yellow; 
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.btn1{
+    border: black;
+    outline: black;
+    height: 30px;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    justify-content: center;
+    position: relative;
+}
+.btn1:hover{
+    background: #213159;
+    border: 1px solid;
+    
+}
+.lupa {
+    
+    color: rgba(240, 75, 76, 1);
+    font-family: Nurom;
+    font-weight: Bold;
+    font-size: 17px;
+    text-align: left;
+    
+}
+.h5 {
+   
+    color: #3D6098;
+    position: relative;
+    font-size: 30px;
+    font-family: 'Nurom', sans-serif;
+    text-align: right;
+}
+
+input.user {
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2;
+
+}
+
+.pass {
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2;
+
+}
+
+.h1 {
+   
+    font-family: 'Nurom', sans-serif;
+    color: #213159;
+    position: relative;
+    font-weight: bold;
+    font-size: 54px;
+    text-align: right;
+}
+.bg-img {
+    position: absolute;
+    top: 238px;
+    left: -175px;
+    width: 800px;
+    height: 80%;
+}
+.logo .sch-logo {
+    position:absolute;
+    top: 0px;
+    left: -15px;
+    width: 20%;
+    height: 40%;
+}
+.bg-ombak {
+    position: absolute;
+    z-index: -9999;
+    top: 460px;
+    left: -190px;
+    width: 600px;
+    height: 0px;
+    animation: animasiOmbak 3s ease forwards;
+}
+
+@keyframes animasiOmbak {
+    0% {
+        width: 50px;
+        height: 50px;
+    }
+
+    100% {
+        width: 1440px;
+        height: 166px;
+    }
+}
+

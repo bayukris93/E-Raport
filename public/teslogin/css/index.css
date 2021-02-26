@@ -1,0 +1,52 @@
+/* div{
+    
+        display: inline; 
+        border: 1px solid blue;  
+        background-color: yellow; 
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(199, 206, 206);
+}
+.row{
+    background: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px;
+   
+}
+img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.btn1{
+    border: black;
+    outline: black;
+    height: 30px;
+    width: 100%;
+    background-color: #213159;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    justify-content: center;
+   
+}
+.btn1:hover{
+    background: cornflowerblue;
+    border: 1px solid;
+
+}
+.lupa {
+    
+    color: rgba(240, 75, 76, 1);
+    font-family: Nurom;
+    font-weight: Bold;
+    font-size: 17px;
+    text-align: left;
+    
+}

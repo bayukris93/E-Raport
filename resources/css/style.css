@@ -1,0 +1,398 @@
+@import url('http://fonts.cdnfonts.com/css/nurom');
+
+
+/* 1. Login */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo .sch-logo {
+    top: -141px;
+    left: -15px;
+    width: 20%;
+    height: 20%;
+}
+
+.content h5 {
+    height: 10%;
+    left: 956px;
+    top: 110px;
+    color: #3D6098;
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Nurom', sans-serif;
+}
+
+.content h1 {
+    height: 10%;
+    left: 793px;
+    top: 157px;
+    font-family: 'Nurom', sans-serif;
+    color: #213159;
+    position: absolute;
+    font-weight: bold;
+    font-size: 54px;
+}
+
+.content .un {
+    left: 705px;
+    top: 229px;
+    position: absolute;
+    width: 40%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: #E9E9E9;
+    padding: 10px 20px;
+    border: none;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    font-family: 'Nurom', sans-serif;
+}
+
+.pass {
+    position: absolute;
+    left: 705px;
+    top: 287px;
+    width: 40%;
+    color: rgb(38, 50, 56);
+    font-weight: 700px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: #E9E9E9;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    /* margin-bottom: 27px; */
+    font-family: 'Nurom', sans-serif;
+}
+
+.un:focus,
+.pass:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+}
+
+p.ingat {
+    float: left;
+    line-height: 31px;
+}
+
+p.ingat label {
+    font-size: 12px;
+    color: #777;
+    cursor: pointer;
+}
+
+p.ingat input {
+    position: relative;
+    bottom: 1px;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.input-checkbox100 {
+    position: absolute;
+    color: #999999;
+    left: 778px;
+    top: 365px;
+    width: 24px;
+    height: 24px;
+}
+
+.label-checkbox100 {
+    font-family: Nurom;
+    position: absolute;
+    color: #999999;
+    left: 815px;
+    font-size: 19px;
+    top: 369px;
+    line-height: 1.2;
+}
+
+.lupa {
+    width: 143px;
+    color: rgba(240, 75, 76, 1);
+    position: absolute;
+    top: 369px;
+    left: 1133px;
+    font-family: Nurom;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.container-login100-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 903px;
+    top: 419px;
+}
+
+.login100-form-btn {
+    font-family: Ubuntu-Bold;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 244px;
+    height: 42px;
+    background-color: #827ffe;
+    border-radius: 3px;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.login100-form-btn:hover {
+    background-color: #213159;
+}
+
+.daftar {
+    position: absolute;
+    left: 928px;
+    top: 480px;
+}
+
+.disini {
+    position: absolute;
+    left: 1045px;
+    top: 480px;
+}
+
+.bg-img {
+    position: absolute;
+    top: 238px;
+    left: -34px;
+    width: 800px;
+    height: 60%;
+}
+
+.bg-ombak {
+    position: absolute;
+    z-index: -9999;
+    top: 489px;
+    left: 0px;
+    width: 840px;
+    height: 2%;
+    /* animation: animasiOmbak 3s ease forwards; */
+}
+
+/* @keyframes animasiOmbak {
+    0% {
+        width: 100px;
+        height: 156px;
+    }
+
+    100% {
+        width: 1440px;
+        height: 166px;
+    }
+} */
+
+@media only screen and (max-width: 992px) {
+    html {
+        height: 900px;
+        width: 900px;
+    }
+
+    .logo .sch-logo {
+        width: 15%;
+        height: 15%;
+    }
+
+    .content h5 {
+        height: 10%;
+        left: 150px;
+        top: 120px;
+        font-size: 20px;
+    }
+
+    .content h1 {
+        height: 10%;
+        left: 124px;
+        top: 148px;
+        font-size: 30px;
+    }
+
+    .content .un {
+        left: 110px;
+        top: 200px;
+        width: 50%;
+        font-weight: 500px;
+        margin-bottom: 35px;
+        font-size: 12px;
+        margin-left: 26px;
+
+    }
+
+    .pass {
+        left: 110px;
+        top: 250px;
+        width: 50%;
+        font-weight: 500px;
+        margin-bottom: 35px;
+        font-size: 12px;
+        margin-left: 26px;
+    }
+
+    p.ingat {
+        float: left;
+        line-height: 21px;
+    }
+
+    p.ingat {
+        margin-right: 4px;
+        vertical-align: middle;
+    }
+
+    .input-checkbox100 {
+        left: 160px;
+        top: 300px;
+        width: 15px;
+    }
+
+    .label-checkbox100 {
+        left: 187px;
+        font-size: 12px;
+        top: 307px;
+    }
+
+    .lupa {
+        width: 100px;
+        left: 285px;
+        top: 307px;
+        font-size: 12px;
+    }
+
+    .container-login100-form-btn {
+        left: 197px;
+        top: 335px;
+
+    }
+
+    .login100-form-btn {
+        font-size: 12px;
+        width: 30%;
+        height: 22px;
+    }
+
+    .daftar {
+        left: 157px;
+        top: 375px;
+    }
+
+    .disini {
+        left: 297px;
+        top: 375px;
+    }
+
+    .bg-img {
+        left: 8px;
+        top: 289px;
+        width: 365px;
+    }
+
+    .bg-ombak {
+        width: 500px;
+        height: 50px;
+        top: 540px;
+    }
+
+    /* @keyframes animasiOmbak {
+        0% {
+            width: 100px;
+            height: 156px;
+        }
+    
+        50% {
+            width: 450px;
+            height: 166px;
+        }
+    } */
+}
+
+
+
+/* 2. Register */
+.header-rgs img {
+    top: 0px;
+    left: 9px;
+}
+.rgs-bgimage img{
+    top: -30px;
+    width: 100%;
+    height: 1025px;
+}
+.container img {
+    top: 0px;
+	left: 0px;
+	width: 65%;
+    height: 100%;
+    position: absolute;
+    z-index: -9999;
+}
+
+.form-regist {
+    position: absolute;
+    top: 84px;
+	left: 863px;
+	width: 628px;
+	height: 130px;
+	overflow: hidden;
+	font-family: Nurom;
+	font-size: 44px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 64px;
+	color:#213159;
+}
+
+.form-regist p {
+    position: absolute;
+    left: 845px;
+    top:auto;
+    height: 20px;
+}
